@@ -1,0 +1,33 @@
+
+
+
+ nav{
+    height: 50px;
+    background-color: aqua;
+    font-size: 40px;
+
+}
+
+nav li {
+    list-style: none;
+    padding: 10px;
+}
+nav a{
+    text-decoration:none ;
+    color: black;
+}
+nav li :hover{
+   
+}
+ nav>ul>li{
+    float: left;
+ }
+ .dropdown{
+    display: none;
+    position: absolute;
+    background-color: bisque;
+    padding: 0%;
+ }
+ nav > ul > li:hover > ul{
+    display: block;
+ }
